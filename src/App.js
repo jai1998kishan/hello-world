@@ -1,6 +1,7 @@
 import "./App.css";
-import ClassClick from "./components/ClassClick";
-import FunctionClick from "./components/FunctionClick";
+import EventBind from "./components/EventBind";
+// import ClassClick from "./components/ClassClick";
+// import FunctionClick from "./components/FunctionClick";
 // import Counter from "./components/Counter";
 // import Message from "./components/Message";
 // import Greet from "./components/Greet"; // for default export
@@ -11,9 +12,12 @@ import FunctionClick from "./components/FunctionClick";
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
+      <EventBind />
+      {/* ========================================================== */}
 
-      <ClassClick />
+      {/* <FunctionClick /> */}
+
+      {/* <ClassClick /> */}
 
       {/* ====================================================== */}
 
