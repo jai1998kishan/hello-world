@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import Counter from "./components/Counter";
+// import Message from "./components/Message";
+import Greet from "./components/Greet"; // for default export
+// import { Greet } from "./components/Greet"; // for name export
+// import Hello from "./components/Hello";
+import Welcome from "./components/Welcome";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter /> */}
+
+      {/* <Message /> */}
+
+      {/* ========================================================== */}
+
+      {/* props in function component */}
+      {/* <Greet name="Bruce" heroName="Batman">
+        <p>This is children props</p>
+      </Greet> */}
+
+      {/* <Greet name="Clark" heroName="Superman">
+        <button>Action</button>
+      </Greet> */}
+
+      <Greet name="Diana" heroName="Wonder Woman" />
+
+      {/* props in class Component */}
+      {/* <Welcome name="mahi" heroName="lightman" /> */}
+
+      {/* <Welcome name="moto" heroName="waterman" /> */}
+
+      <Welcome name="rocky" heroName="stoneman" />
+
+      {/* <Hello /> */}
     </div>
   );
 }
