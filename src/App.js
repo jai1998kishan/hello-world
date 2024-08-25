@@ -1,5 +1,6 @@
 import "./App.css";
-import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
+// import EventBind from "./components/EventBind";
 // import ClassClick from "./components/ClassClick";
 // import FunctionClick from "./components/FunctionClick";
 // import Counter from "./components/Counter";
@@ -12,14 +13,23 @@ import EventBind from "./components/EventBind";
 function App() {
   return (
     <div className="App">
-      <EventBind />
+      {/* video 15 codevolution */}
+      <ParentComponent />
+      {/* =================================================== */}
+      {/* event binding */}
+
+      {/* <EventBind /> */}
+
       {/* ========================================================== */}
+      {/* event click  */}
 
       {/* <FunctionClick /> */}
 
       {/* <ClassClick /> */}
 
       {/* ====================================================== */}
+
+      {/* state  */}
 
       {/* <Counter /> */}
 
@@ -28,6 +38,7 @@ function App() {
       {/* ========================================================== */}
 
       {/* props in function component */}
+
       {/* <Greet name="Bruce" heroName="Batman">
         <p>This is children props</p>
       </Greet> */}
@@ -38,7 +49,10 @@ function App() {
 
       {/* <Greet name="Diana" heroName="Wonder Woman" /> */}
 
+      {/* ....................................................... */}
+
       {/* props in class Component */}
+
       {/* <Welcome name="mahi" heroName="lightman" /> */}
 
       {/* <Welcome name="moto" heroName="waterman" /> */}
