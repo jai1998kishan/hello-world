@@ -1,5 +1,6 @@
 import "./App.css";
-import "./appStyles.css";
+import Form from "./components/Form";
+// import "./appStyles.css";
 // import styles from "./appStyles.module.css";
 // import Inline from "./components/Inline";
 // import Stylesheet from "./components/Stylesheet";
@@ -19,6 +20,10 @@ import "./appStyles.css";
 function App() {
   return (
     <div className="App">
+      {/* form inputs */}
+      <Form />
+      {/* ======================================================== */}
+
       {/* regular stylesheet  */}
       {/* <h1 className="error">Error</h1> */}
       {/* module stylesheet css  */}
