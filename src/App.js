@@ -1,5 +1,6 @@
 import "./App.css";
-import UserGreeting from "./components/UserGreeting";
+import NameList from "./components/NameList";
+// import UserGreeting from "./components/UserGreeting";
 // import ParentComponent from "./components/ParentComponent";
 // import EventBind from "./components/EventBind";
 // import ClassClick from "./components/ClassClick";
@@ -14,9 +15,14 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
+      {/* List Rendering  */}
+
+      <NameList />
+      {/* ====================================================== */}
+
       {/* conditional rendering */}
 
-      <UserGreeting />
+      {/* <UserGreeting /> */}
 
       {/* ================================================ */}
 
