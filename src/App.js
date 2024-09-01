@@ -1,5 +1,9 @@
 import "./App.css";
-import NameList from "./components/NameList";
+import "./appStyles.css";
+// import styles from "./appStyles.module.css";
+// import Inline from "./components/Inline";
+// import Stylesheet from "./components/Stylesheet";
+// import NameList from "./components/NameList";
 // import UserGreeting from "./components/UserGreeting";
 // import ParentComponent from "./components/ParentComponent";
 // import EventBind from "./components/EventBind";
@@ -15,9 +19,25 @@ import NameList from "./components/NameList";
 function App() {
   return (
     <div className="App">
+      {/* regular stylesheet  */}
+      {/* <h1 className="error">Error</h1> */}
+      {/* module stylesheet css  */}
+      {/* <h1 className={styles.success}>Success</h1> */}
+
+      {/* ........................................................ */}
+
+      {/* inline styleing */}
+      {/* <Inline /> */}
+
+      {/* ....................................................... */}
+
+      {/* styling css  */}
+      {/* <Stylesheet primary={true} /> */}
+      {/* ========================================================= */}
+
       {/* List Rendering  */}
 
-      <NameList />
+      {/* <NameList /> */}
       {/* ====================================================== */}
 
       {/* conditional rendering */}
