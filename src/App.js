@@ -1,5 +1,10 @@
 import "./App.css";
-import Form from "./components/Form";
+import RefsDemo from "./components/RefsDemo";
+// import ParentComp from "./components/ParentComp";
+// import Table from "./components/Table";
+// import FragmentDemo from "./components/FragmentDemo";
+// import LifecycleA from "./components/LifecycleA";
+// import Form from "./components/Form";
 // import "./appStyles.css";
 // import styles from "./appStyles.module.css";
 // import Inline from "./components/Inline";
@@ -20,8 +25,24 @@ import Form from "./components/Form";
 function App() {
   return (
     <div className="App">
+      {/* focusing input field */}
+      <RefsDemo />
+
+      {/* =============================================== */}
+
+      {/* PureComponent  */}
+      {/* <ParentComp /> */}
+      {/* ============================================ */}
+      {/* <Table /> */}
+      {/* .................................... */}
+      {/* fragment  */}
+      {/* <FragmentDemo /> */}
+      {/* ========================================= */}
+      {/* lifecycle mounting */}
+      {/* <LifecycleA /> */}
+      {/* ============================================= */}
       {/* form inputs */}
-      <Form />
+      {/* <Form /> */}
       {/* ======================================================== */}
 
       {/* regular stylesheet  */}
