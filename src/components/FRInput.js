@@ -1,11 +1,20 @@
 import React from "react";
 
-function FRInput() {
+// function FRInput() {
+//   console.log("FRInput is render...");
+//   return (
+//     <>
+//       <input type="text"  />
+//     </>
+//   );
+// }
+
+const FRInput = React.forwardRef((props, ref) => {
   return (
     <>
-      <h1>Hello</h1>
+      <input type="text" ref={ref} />
     </>
   );
-}
+});
 
 export default FRInput;

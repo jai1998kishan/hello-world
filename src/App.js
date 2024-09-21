@@ -1,4 +1,16 @@
 import "./App.css";
+import ComponentC from "./components/ComponentC";
+import { UserProvider } from "./components/UserContext";
+// import HoverCounterTwo from "./components/HoverCounterTwo";
+// import ClickCounterTwo from "./components/ClickCounterTwo";
+// import User from "./components/User";
+// import CounterTwo from "./components/CounterTwo";
+// import ClickCounter from "./components/ClickCounter";
+// import HoverCounter from "./components/HoverCounter";
+// import ErrorBoundary from "./components/ErrorBoundary";
+// import Hero from "./components/Hero";
+// import PortalDemo from "./components/PortalDemo";
+// import FRParentInput from "./components/FRParentInput";
 // import FocusInput from "./components/FocusInput";
 // import RefsDemo from "./components/RefsDemo";
 // import ParentComp from "./components/ParentComp";
@@ -26,6 +38,61 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      {/* ===================================================== */}
+
+      {/* React Context  */}
+      {/* <UserProvider value="Mahi">
+        <ComponentC />
+      </UserProvider> */}
+      {/* ========================================================== */}
+
+      {/* Render Props Pattern  */}
+
+      {/* <CounterTwo
+        render={(count, incrementCount) => (
+          <ClickCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      />
+      <CounterTwo
+        render={(count, incrementCount) => (
+          <HoverCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      /> */}
+
+      {/* <ClickCounterTwo />
+      <HoverCounterTwo />
+      <User render={(isLoggedIn) => (isLoggedIn ? "Mahi" : "Guest")} /> */}
+
+      {/* ==================================================  */}
+
+      {/* Higher order Components  */}
+      {/* <ClickCounter name="Mahi" /> */}
+      {/* <HoverCounter /> */}
+
+      {/* ============================================= */}
+
+      {/* error boundary */}
+      {/* <ErrorBoundary>
+        <Hero heroName="Batman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Superman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Joker" />
+      </ErrorBoundary> */}
+
+      {/* =========================================== */}
+
+      {/* Portals in react  */}
+      {/* <PortalDemo /> */}
+
+      {/* ================================================ */}
+
+      {/* forwarding refs focusing child component throw parent  */}
+
+      {/* <FRParentInput /> */}
+
       {/* focusing input field */}
 
       {/* <FocusInput /> */}
